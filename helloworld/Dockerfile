@@ -1,12 +1,12 @@
 # cd directory
 # docker build -t my-server .
-# docker run my-server .
+# docker run  --rm -p 8000:8000 my-server
 # export PROJECT_ID="$(gcloud config get-value project -q)"
 # docker build -t gcr.io/${PROJECT_ID}/hello-app:v1 .
 # docker images
 # gcloud auth configure-docker
 # docker push gcr.io/${PROJECT_ID}/hello-app:v1
-# docker run --rm -p 8080:8080 gcr.io/${PROJECT_ID}/hello-app:v1
+# docker run --rm -p 8000:8000 gcr.io/${PROJECT_ID}/hello-app:v1
 
 
 FROM python:3
