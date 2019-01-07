@@ -1,3 +1,8 @@
+# gcloud config set project [PROJECT_ID]
+# gcloud config set compute/zone [COMPUTE_ZONE]
+# gcloud container clusters create [CLUSTER_NAME]
+# gcloud container clusters get-credentials [CLUSTER_NAME]
+# kubectl apply -f helloweb-deployment.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:

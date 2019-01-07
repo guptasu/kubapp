@@ -1,3 +1,11 @@
+
+# gcloud config set project [PROJECT_ID]
+# gcloud config set compute/zone [COMPUTE_ZONE]
+# gcloud container clusters create [CLUSTER_NAME]
+# gcloud container clusters get-credentials [CLUSTER_NAME]
+# kubectl apply -f helloweb-ingress-nodeport.yaml
+# kubectl get ingress
+# wait for 5 mins and use the ADDRESS to access
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
